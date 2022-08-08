@@ -9,5 +9,38 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(right,#9c27b0,#8ecdff);
+    background-image: linear-gradient(to bottom, rgb(14, 241, 173), rgb(216, 245, 239));
 }
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-links{
+    display: inline-block;
+    font-size: 20px;
+    padding: right;
+    align-items: right;
+}
+
+.nav-links ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px; 
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+} 
